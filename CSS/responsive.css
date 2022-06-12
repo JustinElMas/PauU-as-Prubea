@@ -1,0 +1,328 @@
+/* Escritorios muy grandes */
+
+/* @media (min-width: 1200px) {
+    .form {
+        width: 44%;
+    }
+} */
+
+/* tablets en horizontal y escirotorios normales */
+
+/* @media (min-width: 768px) and (max-width: 1199px) {
+    .form {
+        width: 65%;
+    }
+} */
+
+/* móviles en horizontal  */
+
+/* @media (max-width: 767px) {
+    #logo-nav {
+        text-align: left;
+        position: relative;
+        top: 0.9rem;
+        left: 0.5rem;
+        font-size: 1rem;
+    }
+
+    #logo-nav span {
+        text-align: center;
+        margin-left: 1.2rem;
+    }
+
+    .nav-bar {
+        height: 8rem;
+        position: fixed;
+        width: 50%;
+        font-family: 0.3rem;
+    }
+
+    .nav-items {
+        line-height: 1rem;
+    }
+
+    .nav-items ul li {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 0.5rem;
+        margin: auto 0;
+    }
+
+    .nav-items ul li {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 0.5rem;
+        border: 0.2rem solid #000;
+        border-radius: 3rem;
+        margin-bottom: 0.5rem;
+        position: relative;
+    }
+
+    .nav-items ul li a {
+        margin-right: 0.7rem;
+    }
+
+    .nav-items ul li:hover {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 0.5rem;
+    }
+
+    .sect-4 {
+        width: 50%;
+
+    }
+    .form {
+        width: 90%;
+    }
+
+    #fin{
+        width: 50%;
+    }
+
+    .hero {
+        text-align: center;
+        height: 60vh;
+        width: 50%;
+    }
+    .emoji {
+        width: 4rem;
+        height: 0.2rem;
+    }
+
+    .text-cabecera {
+        font-size: 1.8rem;
+        position: relative;
+        top: 10rem;
+    }
+
+    .p-cabecera {
+        font-size: 1.1rem;
+        position: relative;
+        top: 15rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-hero{
+        width: 5rem;
+        height: 2.1rem;
+        position: relative;
+        top: 6rem;
+    }
+
+    .btn-hero a {
+        font-size: 0.6rem;
+    }
+
+    .img-ultimate {
+        border-radius: 4rem;
+        margin-top: 1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .sect-1 {
+        width: 50%;
+        height: 50vh;
+    }
+
+    #title-demi {
+        width: 40vw;
+    }
+
+    .text-about-me {
+        width: 20rem;
+        height: 12rem;
+        padding: 1.4rem;
+        margin-top: 4.1rem;
+    }
+
+    .sect-1 .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me {
+        background-color: var(--black);
+        border-radius: 0 2rem 3rem 0;
+        width: 9rem;
+        height: 10rem;
+        margin-left: 5rem;
+    }
+    .about-me img {
+        margin-top: 2rem;
+        width: 8rem;
+        height: 9rem;
+        border-radius: 0 2rem 3rem 0;
+    }
+
+    .title-cont2 {
+        width: 60vw;
+    }
+
+    .sect-2 {
+        width: 50%;
+        height: 60vh;
+    }
+
+    .sect-2 .container-b{
+        flex-direction: column;
+    }
+    
+    .container-b img {
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .sect-3 {
+        width: 75%;
+        height: 70vh;
+    }
+    .father {
+        width: 50%;
+    }
+    
+} */
+
+/* móviles en vertical */ 
+
+@media (max-width: 480px) {
+    .contact-form {
+        width: 90%;
+    }
+    
+    .hero {
+        text-align: center;
+        height: 120vh;
+        width: 100vw;
+    }
+
+    .text-cabecera {
+        margin-top: -2rem;
+        font-size: 1.8rem;
+    }
+
+    .p-cabecera {
+        font-size: 1.2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .about-me{
+        width: 6rem;
+        height: 7rem;
+    }
+
+    .about-me img{
+        width: 8rem;
+        height: 7rem;
+    }
+    .cont-text-me{
+        width: 16rem;
+    }
+
+    .sect-1{
+        height: 60vh;
+    }
+
+    .text-about-me {
+        font-size: 0.6rem;
+        padding: 1rem;
+    }
+
+    .container-b  {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .container-b .item-b {
+        margin-bottom: 3rem;
+    }
+
+    .sect-2 {
+        height: 171vh;
+    }
+
+    .sect-3 {
+        height: 108vh;
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .father {
+        height: 122vh
+    }
+
+    .container-testi p {
+        font-size: 0.8rem;
+    }
+
+    .img-delevey-person {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-end;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+    .img-delevey-person img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .name-client {
+        position: absolute;
+
+    }
+
+    .form {
+        margin: 4rem auto;
+        width: 80%;
+        padding: 0.5rem;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+    .img-ultimate{
+        border: 0.20000000000000018rem solid rgba(187, 58, 138, 0.933);
+    }
+
+    .container-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    #logo-nav {
+        position: none;
+        font-size: 0.73rem;
+        margin-left: -5rem;
+    }
+
+    .container-nav ul li {
+        font-size: 0.5rem;
+    }
+
+    .nav-bar {
+        height: 4.2rem;
+        width: 105vw;
+    }
+
+}
